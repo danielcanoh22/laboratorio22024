@@ -111,7 +111,7 @@ jobs:
 
   deploy:
     needs: build
-    name: Deploys Docker Image in AWS ECR
+    name: Deploys Image in AWS ECR
     runs-on: ubuntu-latest
 
     steps:
