@@ -15,7 +15,7 @@ public class DataController {
         return "APLICACIÓN FUNCIONANDO OK!";
     }
 
-    //    Probando SonarCloud
+    //    Probando SonarCloud 2
     @GetMapping("/version")
     public String version() {
         return "La versión actual es 1.0.0";
